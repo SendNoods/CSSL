@@ -6,36 +6,54 @@
 
 
 	void Pistols(){
-	
+	int Gun;
+	std::cout << "==============================================\n";
+	std::cout << "== Select a Gun                             ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [1] USP-S                                ==\n";
+	std::cout << "== [2] P2000                                ==\n";
+	std::cout << "== [3] Glock-18                             ==\n";
+	std::cout << "== [4] Five-Seven                           ==\n";
+	std::cout << "== [5] Tec-9                                ==\n";
+	std::cout << "== [6] P250                                 ==\n";
+	std::cout << "== [7] CZ75-Auto                            ==\n";
+	std::cout << "== [8] Dual Berettas                        ==\n";
+	std::cout << "== [9] Desert Eagle                         ==\n";
+	std::cout << "== [0] R8 Revolver                          ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [10] Back                                ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== Input: ";
+	std::cin >> Gun;
 	}
-	void CZ75A(){
-	
+	void USP(){
+		
 	}
-	void Deagle(){
-
-	}
-	void Dualies(){
-
-	}
-	void FiveSeven(){
+	void P2000(){
 
 	}
 	void Glock18(){
 
 	}
-	void P2000(){
+	void FiveSeven(){
 
-	}
-	void P250(){
-		
-	}
-	void R8(){
-		
 	}
 	void Tec9(){
 		
 	}
-	void USP(){
+	void P250(){
+		
+	}
+	void CZ75A(){
+	
+	}
+	void Dualies(){
+
+	}
+	void Deagle(){
+
+	}
+	void R8(){
 		
 	}
 	void Rifles(){
