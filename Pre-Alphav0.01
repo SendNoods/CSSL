@@ -58,6 +58,7 @@
 	std::cout << "==------------------------------------------==\n";
 	std::cout << "== Input: ";
 	std::cin >> Usp;
+	
 	}else if(Gun == 2){
 		
 	}else if(Gun == 3){
@@ -245,17 +246,46 @@
 	
 	}
 	void Ware(){
-		
+	int Ware;
+	std::cout << "==============================================\n";
+	std::cout << "== Ware                                     ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 1] Factory New                         ==\n";
+	std::cout << "== [ 2] Minimal Ware                        ==\n";
+	std::cout << "== [ 3] Field-Tested                        ==\n";
+	std::cout << "== [ 4] Well-Worn                           ==\n";
+	std::cout << "== [ 5] Battle-Scarred                      ==\n";
+	std::cout << "==============================================\n";
+	do{
+	std::cout << "== Input: ";
+	std::cin >> Ware;
+	}while(Ware != 1 || Ware != 2 || Ware !=);
 	}
 	void StatTrak(){
+	int STrak;
 	std::cout << "==============================================\n";
 	std::cout << "== StatTrak\x00AE                                ==\n";
 	std::cout << "==------------------------------------------==\n";
-	std::cout << "== [1] USP-S                                ==\n";
-	std::cout << "== [2] P2000                                ==\n";
+	std::cout << "== [ 1] USP-S                                ==\n";
+	std::cout << "== [ 2] P2000                                ==\n";
+	std::cout << "==============================================\n";
+	do{
+	std::cout << "== Input: ";
+	std::cin >> STrak;
+	}while(STrak != 1 || Strak != 2);
+	}
+	void Souvenir(){
+	int Souv;
+	std::cout << "==============================================\n";
+	std::cout << "== Souvenir                                 ==\n";
 	std::cout << "==------------------------------------------==\n";
-	std::cout << "== [0] Back                                ==\n";
-	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 1] Yes                                 ==\n";
+	std::cout << "== [ 2] No                                  ==\n";
+	std::cout << "==============================================\n";
+	do{
+	std::cout << "== Input: ";
+	std::cin >> Souv;
+	}while(Souv != 1 || Souv != 2);
 	}
 	void Save(){
 	
