@@ -1,5 +1,4 @@
-// CounterStrikeSkinList.cpp : Defines the entry point for the console application.
-//
+// CounterStrikeSkinList
 
 #include "stdafx.h"
 #include <iostream>
@@ -7,25 +6,82 @@
 
 	void Pistols(){
 	int Gun;
+	int Usp, P2k, Glock, FiveS, Tec, P250, Cz, Dual, Deagle, R8;
 	std::cout << "==============================================\n";
 	std::cout << "== Select a Gun                             ==\n";
 	std::cout << "==------------------------------------------==\n";
-	std::cout << "== [1] USP-S                                ==\n";
-	std::cout << "== [2] P2000                                ==\n";
-	std::cout << "== [3] Glock-18                             ==\n";
-	std::cout << "== [4] Five-Seven                           ==\n";
-	std::cout << "== [5] Tec-9                                ==\n";
-	std::cout << "== [6] P250                                 ==\n";
-	std::cout << "== [7] CZ75-Auto                            ==\n";
-	std::cout << "== [8] Dual Berettas                        ==\n";
-	std::cout << "== [9] Desert Eagle                         ==\n";
-	std::cout << "== [0] R8 Revolver                          ==\n";
+	std::cout << "== [ 1] USP-S                               ==\n";
+	std::cout << "== [ 2] P2000                               ==\n";
+	std::cout << "== [ 3] Glock-18                            ==\n";
+	std::cout << "== [ 4] Five-Seven                          ==\n";
+	std::cout << "== [ 5] Tec-9                               ==\n";
+	std::cout << "== [ 6] P250                                ==\n";
+	std::cout << "== [ 7] CZ75-Auto                           ==\n";
+	std::cout << "== [ 8] Dual Berettas                       ==\n";
+	std::cout << "== [ 9] Desert Eagle                        ==\n";
+	std::cout << "== [10] R8 Revolver                         ==\n";
 	std::cout << "==------------------------------------------==\n";
-	std::cout << "== [10] Back                                ==\n";
+	std::cout << "== [ 0] Back                                ==\n";
 	std::cout << "==------------------------------------------==\n";
+	do {
 	std::cout << "== Input: ";
 	std::cin >> Gun;
+	if(Gun == 1){
+	std::cout << "==============================================\n";
+	std::cout << "== USP-S  |   Select a Skin                 ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [##] | Name                | Tier        ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 1]   Neo-Noir              Red         ==\n";
+	std::cout << "== [ 2]   Kill Confirmed        Red         ==\n";
+	std::cout << "== [ 3]   Caiman                Pink        ==\n";
+	std::cout << "== [ 4]   Orion                 Pink        ==\n";
+	std::cout << "== [ 5]   Serum                 Pink        ==\n";
+	std::cout << "== [ 6]   Cyrex                 Purple      ==\n";
+	std::cout << "== [ 7]   Guardian              Purple      ==\n";
+	std::cout << "== [ 8]   Overgrowth            Purple      ==\n";
+	std::cout << "== [ 9]   Dark Water            Purple      ==\n";
+	std::cout << "== [11]   Road Rash             Purple      ==\n";
+	std::cout << "== [12]   Blueprint             Blue        ==\n";
+	std::cout << "== [13]   Lead Conduit          Blue        ==\n";
+	std::cout << "== [14]   Torque                Blue        ==\n";
+	std::cout << "== [15]   Blood Tiger           Blue        ==\n";
+	std::cout << "== [16]   Stainless             Blue        ==\n";
+	std::cout << "== [17]   Business Class        Blue        ==\n";
+	std::cout << "== [18]   Night Ops             Blue        ==\n";
+	std::cout << "== [19]   Para Green            Light Blue  ==\n";
+	std::cout << "== [20]   Royal Blue            light Blue  ==\n";
+	std::cout << "== [21]   Forest Leaves         Light Blue  ==\n";
+	std::cout << "== [22]   Default               Default     ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 0] Back                                ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== Input: ";
+	std::cin >> Usp;
+	}else if(Gun == 2){
+		
+	}else if(Gun == 3){
+		
+	}else if(Gun == 4){
+		
+	}else if(Gun == 5){
+		
+	}else if(Gun == 6){
+		
+	}else if(Gun == 7){
+		
+	}else if(Gun == 8){
+		
+	}else if(Gun == 9){
+		
+	}else if(Gun == 0){
+		
+	}else if(Gun == 10){
+		
+	}else{
+		Gun = 11;
 	}
+	}while (Gun != 0);
 	void USP(){
 		
 	}
@@ -188,6 +244,19 @@
 	void Sport(){
 	
 	}
+	void Ware(){
+		
+	}
+	void StatTrak(){
+	std::cout << "==============================================\n";
+	std::cout << "== StatTrak\x00AE                                ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [1] USP-S                                ==\n";
+	std::cout << "== [2] P2000                                ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [0] Back                                ==\n";
+	std::cout << "==------------------------------------------==\n";
+	}
 	void Save(){
 	
 	}
@@ -205,14 +274,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout << "==============================================\n";
 	std::cout << "== Select a Catagory                        ==\n";
 	std::cout << "==------------------------------------------==\n";
-	std::cout << "== [1] Pistols                              ==\n";
-	std::cout << "== [2] Rifles                               ==\n";
-	std::cout << "== [3] SMGs                                 ==\n";
-	std::cout << "== [4] Heavy                                ==\n";
-	std::cout << "== [5] Knives                               ==\n";
-	std::cout << "== [6] Gloves                               ==\n";
-	std::cout << "== [9] Save File                            ==\n";
-	std::cout << "== [0] Quit                                 ==\n";
+	std::cout << "== [ 1] Pistols                             ==\n";
+	std::cout << "== [ 2] Rifles                              ==\n";
+	std::cout << "== [ 3] SMGs                                ==\n";
+	std::cout << "== [ 4] Heavy                               ==\n";
+	std::cout << "== [ 5] Knives                              ==\n";
+	std::cout << "== [ 6] Gloves                              ==\n";
+	std::cout << "== [ 9] Save File                           ==\n";
+	std::cout << "== [ 0] Quit                                ==\n";
 	std::cout << "==------------------------------------------==\n";
 	do{
 	std::cout << "== Input: ";
