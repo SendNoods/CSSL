@@ -1,0 +1,199 @@
+// CounterStrikeSkinList.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+
+	void CZ75A(){
+	
+	}
+	void Deagle(){
+
+	}
+	void Dualies(){
+
+	}
+	void FiveSeven(){
+
+	}
+	void Glock18(){
+
+	}
+	void P2000(){
+
+	}
+	void P250(){
+		
+	}
+	void R8(){
+		
+	}
+	void Tec9(){
+		
+	}
+	void USP(){
+		
+	}
+	void AK47(){
+	
+	}
+	void AUG(){
+	
+	}
+	void AWP(){
+	
+	}
+	void FAMAS(){
+	
+	}
+	void G3SG1(){
+	
+	}
+	void GalilAR(){
+	
+	}
+	void M4A1S(){
+	
+	}
+	void M4A4(){
+	
+	}
+	void Scar20(){
+	
+	}
+	void SG553(){
+	
+	}
+	void SSG08(){
+	
+	}
+	void MAC10(){
+	
+	}
+	void MP7(){
+	
+	}
+	void MP9(){
+	
+	}
+	void PPBizon(){
+	
+	}
+	void P90(){
+	
+	}
+	void UMP45(){
+	
+	}
+	void Mag7(){
+	
+	}
+	void Nova(){
+	
+	}
+	void SawnOff(){
+	
+	}
+	void XM1014(){
+	
+	}
+	void M249(){
+	
+	}
+	void Negev(){
+	
+	}
+	void Bayonet(){
+	
+	}
+	void Bowie(){
+	
+	}
+	void Butterfly(){
+	
+	}
+	void Falchion(){
+	
+	}
+	void Flip(){
+	
+	}
+	void Gut(){
+	
+	}
+	void Huntsman(){
+	
+	}
+	void Karambit(){
+	
+	}
+	void M9Bayonet(){
+	
+	}
+	void ShadowDaggers(){
+	
+	}
+	void Bloodhound(){
+	
+	}
+	void Driver(){
+	
+	}
+	void Wraps(){
+	
+	}
+	void Moto(){
+	
+	}
+	void Specialist(){
+	
+	}
+	void Sport(){
+	
+	}
+int _tmain(int argc, _TCHAR* argv[])
+{
+	int Catagory;
+	std::cout << "===========================Pre-Alpha v0.01====\n";
+	std::cout << "==============================================\n";
+	std::cout << "==             Counter-Strike:              ==\n";
+	std::cout << "==                Skin-List                 ==\n";
+	std::cout << "==============================================\n";
+	std::cout << "==============================================\n";
+	std::cout << "== Welcome to CS:SL - A Program to make     ==\n";
+	std::cout << "== your wishlist management easier!         ==\n";
+	std::cout << "==============================================\n";
+	std::cout << "== Select a Catagory                        ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [1] Pistols                              ==\n";
+	std::cout << "== [2] Rifles                               ==\n";
+	std::cout << "== [3] SMGs                                 ==\n";
+	std::cout << "== [4] Heavy                                ==\n";
+	std::cout << "== [5] Knives                               ==\n";
+	std::cout << "== [6] Gloves                               ==\n";
+	std::cout << "== [9] Save File                            ==\n";
+	std::cout << "== [0] Quit                                 ==\n";
+	std::cout << "==------------------------------------------==\n";
+	do{
+	std::cout << "== Input: ";
+	std::cin >> Catagory;
+	if(Catagory == 1){
+	
+	}else if(Catagory == 2){
+	
+	}else if(Catagory == 3){
+	
+	}else if(Catagory == 4){
+	
+	}else if(Catagory == 5){
+	
+	}else if(Catagory == 6){
+	
+	}else if(Catagory == 9){
+	
+	}else{
+		Catagory = 0;
+	}
+	}while(Catagory != 0);
+	return 0;
+}
