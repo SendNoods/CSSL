@@ -4,6 +4,10 @@
 #include "stdafx.h"
 #include <iostream>
 
+
+	void Pistols(){
+	
+	}
 	void CZ75A(){
 	
 	}
@@ -33,6 +37,9 @@
 	}
 	void USP(){
 		
+	}
+	void Rifles(){
+	
 	}
 	void AK47(){
 	
@@ -67,6 +74,9 @@
 	void SSG08(){
 	
 	}
+	void SMGs(){
+	
+	}
 	void MAC10(){
 	
 	}
@@ -85,6 +95,9 @@
 	void UMP45(){
 	
 	}
+	void Heavy(){
+	
+	}
 	void Mag7(){
 	
 	}
@@ -101,6 +114,9 @@
 	
 	}
 	void Negev(){
+	
+	}
+	void Knife(){
 	
 	}
 	void Bayonet(){
@@ -133,6 +149,9 @@
 	void ShadowDaggers(){
 	
 	}
+	void Gloves(){
+	
+	}
 	void Bloodhound(){
 	
 	}
@@ -149,6 +168,9 @@
 	
 	}
 	void Sport(){
+	
+	}
+	void Save(){
 	
 	}
 int _tmain(int argc, _TCHAR* argv[])
@@ -178,19 +200,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout << "== Input: ";
 	std::cin >> Catagory;
 	if(Catagory == 1){
-	
+		Pistols();
 	}else if(Catagory == 2){
-	
+		Rifles();
 	}else if(Catagory == 3){
-	
+		SMGs();
 	}else if(Catagory == 4){
-	
+		Heavy();
 	}else if(Catagory == 5){
-	
+		Knife();
 	}else if(Catagory == 6){
-	
+		Gloves();
 	}else if(Catagory == 9){
-	
+		Save();
 	}else{
 		Catagory = 0;
 	}
