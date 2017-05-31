@@ -4,9 +4,9 @@
 #include <iostream>
 
 
+	void Main();
 	void Pistols(){
 	int Gun;
-	int Usp, P2k, Glock, FiveS, Tec, P250, Cz, Dual, Deagle, R8;
 	std::cout << "==============================================\n";
 	std::cout << "== Select a Gun                             ==\n";
 	std::cout << "==------------------------------------------==\n";
@@ -27,6 +27,7 @@
 	std::cout << "== Input: ";
 	std::cin >> Gun;
 	if(Gun == 1){
+	int Usp;
 	std::cout << "==============================================\n";
 	std::cout << "== USP-S  |   Select a Skin                 ==\n";
 	std::cout << "==------------------------------------------==\n";
@@ -56,15 +57,124 @@
 	std::cout << "==------------------------------------------==\n";
 	std::cout << "== [ 0] Back                                ==\n";
 	std::cout << "==------------------------------------------==\n";
+	do{
 	std::cout << "== Input: ";
 	std::cin >> Usp;
-	
+	}while(Usp != 0);
+	Pistols();
 	}else if(Gun == 2){
-		
+	int P2k;
+	std::cout << "==============================================\n";
+	std::cout << "== P2000  |   Select a Skin                 ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [##] | Name                | Tier        ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 1]   Fire Elemental        Red         ==\n";
+	std::cout << "== [ 2]   Imperial Dragon       Pink        ==\n";
+	std::cout << "== [ 3]   Corticera             Pink        ==\n";
+	std::cout << "== [ 4]   Ocean Foam            Pink        ==\n";
+	std::cout << "== [ 5]   Woodsman              Purple      ==\n";
+	std::cout << "== [ 6]   Handgun               Purple      ==\n";
+	std::cout << "== [ 7]   Amber Fade            Purple      ==\n";
+	std::cout << "== [ 8]   Scorpion              Purple      ==\n";
+	std::cout << "== [ 9]   Turf                  Blue        ==\n";
+	std::cout << "== [10]   Oceanic               Blue        ==\n";
+	std::cout << "== [11]   Imperial              Blue        ==\n";
+	std::cout << "== [12]   Ivory                 Blue        ==\n";
+	std::cout << "== [13]   Pulse                 Blue        ==\n";
+	std::cout << "== [14]   Red FragCam           Blue        ==\n";
+	std::cout << "== [15]   Chainmail             Blue        ==\n";
+	std::cout << "== [16]   Silver                Blue        ==\n";
+	std::cout << "== [17]   Pathfinder            light Blue  ==\n";
+	std::cout << "== [18]   Grassland             Light Blue  ==\n";
+	std::cout << "== [19]   Grassland Leaves      Light Blue  ==\n";
+	std::cout << "== [20]   Coach Class           Light Blue  ==\n";
+	std::cout << "== [21]   Granite Marbleized    Light Blue  ==\n";
+	std::cout << "== [22]   Default               Default     ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 0] Back                                ==\n";
+	std::cout << "==------------------------------------------==\n";
+	do{
+	std::cout << "== Input: ";
+	std::cin >> P2k;
+	}while(P2k != 0);
+	Pistols();
 	}else if(Gun == 3){
-		
+	int Glock;
+	std::cout << "==============================================\n";
+	std::cout << "== Glock  |   Select a Skin                 ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [##] | Name                | Tier        ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 1]   Wasteland Rebel       Red         ==\n";
+	std::cout << "== [ 2]   Water Elemental       Pink        ==\n";
+	std::cout << "== [ 3]   Twilight Galaxy       Pink        ==\n";
+	std::cout << "== [ 4]   Weasel                Pink        ==\n";
+	std::cout << "== [ 5]   Royal Legion          Purple      ==\n";
+	std::cout << "== [ 6]   Grinder               Purple      ==\n";
+	std::cout << "== [ 7]   Steel Disruption      Purple      ==\n";
+	std::cout << "== [ 8]   Dragon Tattoo         Purple      ==\n";
+	std::cout << "== [ 9]   Fade                  Purple      ==\n";
+	std::cout << "== [10]   Brass                 Purple      ==\n";
+	std::cout << "== [11]   Ironwork              Blue        ==\n";
+	std::cout << "== [12]   Wraiths               Blue        ==\n";
+	std::cout << "== [13]   Bunsen Burner         Blue        ==\n";
+	std::cout << "== [14]   Catacombs             Blue        ==\n";
+	std::cout << "== [15]   Blue Fissure          Blue        ==\n";
+	std::cout << "== [16]   Reactor               Blue        ==\n";
+	std::cout << "== [17]   Candy Apple           Blue        ==\n";
+	std::cout << "== [18]   Night                 Light Blue  ==\n";
+	std::cout << "== [19]   Death Rattle          Light Blue  ==\n";
+	std::cout << "== [20]   Groundwater           Light Blue  ==\n";
+	std::cout << "== [21]   Sand Dune             Light Blue  ==\n";
+	std::cout << "== [22]   Default               Default     ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 0] Back                                ==\n";
+	std::cout << "==------------------------------------------==\n";
+	do{
+	std::cout << "== Input: ";
+	std::cin >> Glock;
+	}while(Glock != 0);
+	Pistols();
 	}else if(Gun == 4){
-		
+	int FSeven;
+	std::cout << "==============================================\n";
+	std::cout << "== Five-Seven  |   Select a Skin            ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [##] | Name                | Tier        ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 1]   Hyper Beast           Red         ==\n";
+	std::cout << "== [ 2]   Monkey Business       Pink        ==\n";
+	std::cout << "== [ 3]   Fowl Play             Pink      ==\n";
+	std::cout << "== [ 4]   Triumvirate           Purple      ==\n";
+	std::cout << "== [ 5]   Retrobution           Purple      ==\n";
+	std::cout << "== [ 6]   Copper Galaxy         Purple      ==\n";
+	std::cout << "== [ 7]   Case Hardened         Purple      ==\n";
+	std::cout << "== [ 8]   Neon Kimono           Purple      ==\n";
+	std::cout << "== [ 9]   Capillary             Blue        ==\n";
+	std::cout << "== [10]   Scumbria              Blue        ==\n";
+	std::cout << "== [11]   Violent Daimyo        Blue        ==\n";
+	std::cout << "== [12]   Urban Hazard          Blue        ==\n";
+	std::cout << "== [13]   Nightshade            Blue        ==\n";
+	std::cout << "== [14]   Kami                  Blue        ==\n";
+	std::cout << "== [15]   Nitro                 Blue        ==\n";
+	std::cout << "== [16]   Silver Quartz         Blue        ==\n";
+	std::cout << "== [17]   Hot Shot              Light Blue  ==\n";
+	std::cout << "== [18]   Orange Peel           Light Blue  ==\n";
+	std::cout << "== [19]   Candy Apple           Light Blue  ==\n";
+	std::cout << "== [20]   Contractor            Gray        ==\n";
+	std::cout << "== [21]   Forest Night          Gray        ==\n";
+	std::cout << "== [22]   Anodized Gunmetal     Gray        ==\n";
+	std::cout << "== [23]   Jungle                Gray        ==\n";
+	std::cout << "== [24]   Default               Default     ==\n";
+	std::cout << "==------------------------------------------==\n";
+	std::cout << "== [ 0] Back                                ==\n";
+	std::cout << "==------------------------------------------==\n";
+	do{
+	std::cout << "== Input: ";
+	std::cin >> FSeven;
+	}while(FSeven != 0);
+	Pistols();
 	}else if(Gun == 5){
 		
 	}else if(Gun == 6){
@@ -75,14 +185,15 @@
 		
 	}else if(Gun == 9){
 		
-	}else if(Gun == 0){
-		
 	}else if(Gun == 10){
 		
+	}else if(Gun == 0){
+		Main();
 	}else{
 		Gun = 11;
 	}
 	}while (Gun != 0);
+	}
 	void USP(){
 		
 	}
@@ -259,7 +370,7 @@
 	do{
 	std::cout << "== Input: ";
 	std::cin >> Ware;
-	}while(Ware != 1 || Ware != 2 || Ware !=);
+	}while(Ware != 0);
 	}
 	void StatTrak(){
 	int STrak;
@@ -272,7 +383,7 @@
 	do{
 	std::cout << "== Input: ";
 	std::cin >> STrak;
-	}while(STrak != 1 || Strak != 2);
+	}while(STrak != 1 || STrak != 2);
 	}
 	void Souvenir(){
 	int Souv;
@@ -290,9 +401,9 @@
 	void Save(){
 	
 	}
-int _tmain(int argc, _TCHAR* argv[])
-{
+	void Main(){
 	int Catagory;
+	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 	std::cout << "===========================Pre-Alpha v0.01====\n";
 	std::cout << "==============================================\n";
 	std::cout << "==             Counter-Strike:              ==\n";
@@ -334,5 +445,10 @@ int _tmain(int argc, _TCHAR* argv[])
 		Catagory = 0;
 	}
 	}while(Catagory != 0);
+	return;
+	}
+int _tmain(int argc, _TCHAR* argv[])
+{
+	Main();
 	return 0;
 }
